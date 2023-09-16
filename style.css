@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Nunito:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@700&display=swap'); 
+
 *{
     margin: 0;
     padding: 0;
@@ -11,14 +14,14 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #06283D;
+    background-image: radial-gradient(circle, #0c053b, #003266, #005d89, #0089a4, #54b5ba);
 }
 
 .container{
     position: relative;
     width: 400px;
     height: 105px;
-    background: #fff;
+    background: whitesmoke;
     padding: 28px 32px;
     overflow: hidden;
     border-radius: 18px;
@@ -38,16 +41,20 @@ body{
     color: #06283D;
     width: 80%;
     font-size: 24px;
-    font-weight: 500;
+    font-weight: bold;
     text-transform: uppercase;
     padding-left: 32px;
+    height:45px;
+    font-family: 'Manrope', sans-serif;
 }
 
 .search-box input::placeholder{
     font-size: 20px;
-    font-weight: 500;
+    font-weight: bold;
     color: #06283D;
     text-transform: capitalize;
+    padding-left: 8px;
+    font-family: 'Nunito', sans-serif;
 }
 
 .search-box button{
@@ -70,6 +77,7 @@ body{
     position: absolute;
     color: #06283D;
     font-size: 28px;
+    padding-left: 6px;
 }
 
 .weather-box{
